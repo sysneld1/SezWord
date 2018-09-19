@@ -22,3 +22,15 @@ test text for develop.txt
 4
 5555
 *********Конец*************
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Start funktion 3
+eee
+errfggg
+gg
+gg
+g
+g
+g
+g
+**************End**********
