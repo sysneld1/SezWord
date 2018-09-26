@@ -1,5 +1,20 @@
-slack: tkbbank:qdzkuli85wIfyUmjkSXdzRwb
-language: ruby
-rvm:
- - 2.2
- - jruby
+# “ут указываетс€ используемый в проекте €зык программировани€, можно указать несколько
+language: python
+
+# ƒалее, укажите версии python дл€ которых нужно производить сборки
+python:
+#  - "2.6"
+  - "3.6"
+
+# ѕараметры окружени€
+#env:
+#  - DJANGO_VERSION=1.4.1
+
+#  оманда дл€ установки зависимостей в окружение (при этом доступны переменные из секции "env")
+install:
+  - pip install docxtpl
+  - pip install selenium
+  - pip install pywinauto
+
+#  оманда дл€ запуска тестов, в моем случае они запускаютс€ именно так
+script: python multi_sessions/tests.py
