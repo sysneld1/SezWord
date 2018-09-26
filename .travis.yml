@@ -1,4 +1,4 @@
-    slack: tkbbank:qdzkuli85wIfyUmjkSXdzRwb
+slack: tkbbank:qdzkuli85wIfyUmjkSXdzRwb
 language: ruby
 rvm:
  - 2.2
