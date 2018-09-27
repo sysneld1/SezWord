@@ -2,7 +2,7 @@ notifications:
  slack:
    rooms:
      - tkbbank:qdzkuli85wIfyUmjkSXdzRwb#sezword
-     - tkbbank:qdzkuli85wIfyUmjkSXdzRwb#tests
+#     - tkbbank:qdzkuli85wIfyUmjkSXdzRwb#tests
 
 
 # “ут указываетс€ используемый в проекте €зык программировани€, можно указать несколько
