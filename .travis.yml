@@ -1,7 +1,7 @@
 notifications:
  slack:
    rooms:
-     - tkbbank:qdzkuli85wIfyUmjkSXdzRwb#general
+     - tkbbank:qdzkuli85wIfyUmjkSXdzRwb#sezword
      - tkbbank:qdzkuli85wIfyUmjkSXdzRwb#tests
 
 
@@ -24,4 +24,4 @@ install:
   - pip install pywinauto
 
 # Команда для запуска тестов, в моем случае они запускаются именно так
-script: python multi_sessions/test.py
+script: python test.py
