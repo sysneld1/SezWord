@@ -1,3 +1,10 @@
+notifications:
+ slack:
+   rooms:
+     - tkbbank:qdzkuli85wIfyUmjkSXdzRwb#general
+     - tkbbank:qdzkuli85wIfyUmjkSXdzRwb#tests
+
+
 # “ут указываетс€ используемый в проекте €зык программировани€, можно указать несколько
 language: python
 
