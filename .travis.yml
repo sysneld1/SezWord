@@ -25,4 +25,4 @@ install:
 
 # Команда для запуска тестов, в моем случае они запускаются именно так
 script: python test.py
-script: python sez_word_5_2.py
+#script: python sez_word_5_2.py
