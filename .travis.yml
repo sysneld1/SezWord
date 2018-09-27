@@ -24,4 +24,4 @@ install:
   - pip install pywinauto
 
 # Команда для запуска тестов, в моем случае они запускаются именно так
-script: python multi_sessions/tests.py
+script: python multi_sessions/test.py
